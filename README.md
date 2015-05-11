@@ -10,5 +10,6 @@ Using: <a href="http://jaunt-api.com/index.htm">Jaunt</a>
 
 ###Execution:
 1. Clone this repository and download <a href="http://jaunt-api.com/download.htm">Jaunt</a> to the root of this repository.
-2. To Compile: ```javac -d . -cp <path to jar>/jaunt0.9.9.9.jar <path to main>/Scrape.java```
-3. To Run: ```java -cp <path to class file>:<path to jar>/jaunt0.9.9.9.jar <path to java file>```
+2. Go into the main directory: ```cd src/main```
+3. To Compile: ```javac -d . -cp ../../jaunt0.9.9.9/jaunt0.9.9.9.jar Scrape.java```
+4. To Run: ```java -cp .:../../jaunt0.9.9.9/jaunt0.9.9.9.jar Scrape```
