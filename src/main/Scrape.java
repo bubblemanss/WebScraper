@@ -86,8 +86,7 @@ public class Scrape{
 	  public static ArrayList<String> spaceFixer(ArrayList<String> newTitles){
 		  ArrayList<String> newerTitles = new ArrayList<String>();
 		  for(String title: newTitles){
-			  String new_title = title.trim();
-			  newerTitles.add(new_title);
+			  newerTitles.add(title.trim());
 		  }
 		  return newerTitles;
 	  }
