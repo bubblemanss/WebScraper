@@ -19,7 +19,7 @@ public class Scrape{
         	newTitles = spaceFixer(newTitles);        	
         }
         for (String titles : newTitles){
-            System.out.print(titles);
+            System.out.println(titles);
         }
     }
     catch(Exception es){         //if an HTTP/connection error occurs, handle JauntException.
@@ -86,7 +86,7 @@ public class Scrape{
 	  public static ArrayList<String> spaceFixer(ArrayList<String> newTitles){
 		  ArrayList<String> newerTitles = new ArrayList<String>();
 		  for(String title: newTitles){
-			  String new_title = title.trim() + "\n";
+			  String new_title = title.trim();
 			  newerTitles.add(new_title);
 		  }
 		  return newerTitles;
