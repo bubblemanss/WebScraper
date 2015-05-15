@@ -4,7 +4,7 @@
 - Configure it to what we want or add more functions
 - Do some data processing (i.e. which news sites contain articles about pop artists)
 
-Using: <a href="http://jaunt-api.com/index.htm">Jaunt</a>
+Using: <a href="http://jaunt-api.com/index.htm">Jaunt</a> and <a href="http://www.oracle.com/technetwork/java/javamail/index.html">JavaMail</a>
 
 
 
