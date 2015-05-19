@@ -6,7 +6,11 @@
 
 Using: <a href="http://jaunt-api.com/index.htm">Jaunt</a> and <a href="http://www.oracle.com/technetwork/java/javamail/index.html">JavaMail</a>
 
-
+###Development:
+1. Make an issue with the bug you're fixing or enchancement your doing and assign yourself or assign yourself an existing issue.
+2. Go to Slack and msg bubbot with ```pr <issue #> from WebScraper```, a new branch would be created a long with a pull request based off the issue. 
+3. Run ```git fetch```.
+4. Run ```git checkout <branch name>``` using the branch you have just created. It'll be appended with the issue #. For example ```pr 1 from WebScraper``` would create a branch called ```iss1```.
 
 ###Execution:
 1. Clone this repository and download <a href="http://jaunt-api.com/download.htm">Jaunt</a> to the root of this repository.
