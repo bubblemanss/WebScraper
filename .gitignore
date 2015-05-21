@@ -2,5 +2,5 @@
 jaunt*
 *.class
 .DS_Store
-jaf*
-javamail*
+jaf-1.1.1/*
+javamail-1.4.5/*
