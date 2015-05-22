@@ -4,9 +4,9 @@ import java.io.*;
 import java.util.*;
 import java.lang.*;
 import java.net.*;
-//import javax.mail.*;
-//import javax.mail.internet.*;
-//import javax.activation.*;
+import javax.mail.*;
+import javax.mail.internet.*;
+import javax.activation.*;
 
 public class Scrape {
 
@@ -37,18 +37,19 @@ public class Scrape {
             }
 
             String sentMess = "";
-           // newTitles = formatString(newTitles);
+            newTitles = formatString(newTitles);
             for (String titles : newTitles){
                 sentMess += titles;
                  printString(titles);
             }
 
-            Scrape http = new Scrape();
-            http.sendGet();
+            // Scrape http = new Scrape();
+            // http.sendGet();
 //            http.sendPost();
 
-        //        Email email = new Email();
-        //        email.sendMail(sentMess);
+            Email email = new Email();
+            System.out.println("nig");
+            email.sendMail(sentMess);
         }
         catch(Exception es){         //if an HTTP/connection error occurs, handle JauntException.
           System.err.println(es);
@@ -86,7 +87,7 @@ public class Scrape {
     // HTTP GET request
     private void sendGet() throws Exception {
 
-        String url = "http://localhost:9200";
+        String url = "http://localhost:9000";
 
         URL obj = new URL(url);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
