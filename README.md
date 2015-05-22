@@ -15,5 +15,5 @@ Using: <a href="http://jaunt-api.com/index.htm">Jaunt</a> and <a href="http://ww
 ###Execution:
 1. Clone this repository and download <a href="http://jaunt-api.com/download.htm">Jaunt</a> to the root of this repository.
 2. Go into the main directory: ```cd src/main```
-3. To Compile: ```javac -cp jaunt0.9.9.9/jaunt0.9.9.9.jar MangaFox.java MangaStream.java MangaHere.java Scrape.java ```
-4. To Run: ```java -cp .:jaunt0.9.9.9/jaunt0.9.9.9.jar Scrape```
+3. To Compile: ```javac -cp jaunt0.9.9.9/jaunt0.9.9.9.jar;jaf-1.1.1/activation.jar;javaemail-1.4.5/mail.jar Email.java MangaFox.java MangaStream.java MangaHere.java Scrape.java ```
+4. To Run: ```java -cp jaunt0.9.9.9/jaunt0.9.9.9.jar;.;jaf-1.1.1/activation.jar;javaemail-1.4.5/mail.jar Scrape```
