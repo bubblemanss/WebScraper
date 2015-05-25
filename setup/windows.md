@@ -1,5 +1,7 @@
-To set the environment variable on your computer, for Windows 8, 
-```Control Panel>System & Security > System > Advanced System settings > Environment variables``` <br/>
+To set the environment variable on your computer, go to:
+```
+Control Panel > System & Security > System > Advanced System settings > Environment variables
+``` 
 Set: <br/>
 ```
 SCRAPER_EMAIL= <emailaddress>
