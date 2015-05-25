@@ -1,4 +1,2 @@
 - Setup Environment variables
-
-
-
+- Check periodically
